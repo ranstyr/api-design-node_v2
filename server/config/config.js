@@ -1,5 +1,7 @@
 var _ = require('lodash');
 
+console.log("config.env" +  config.env);
+
 var config = {
   dev: 'development',
   test: 'testing',
