@@ -3,6 +3,8 @@ var logger = require('../../util/logger');
 var controller = require('./postController');
 var auth = require('../../auth/auth');
 
+//[ran.S] , decodeToken - check id we have token , if we have it will put the user at req.user
+//[ran.S] , geFreshUser - if we have token , fetch it to req.user (it will replace the req.user of ecode user)
 var checkUser = [auth.decodeToken(), auth.getFreshUser()];
 // setup boilerplate route jsut to satisfy a request
 // for building
