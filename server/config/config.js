@@ -16,9 +16,6 @@ var config = {
 process.env.NODE_ENV = process.env.NODE_ENV || config.dev;
 config.env = process.env.NODE_ENV;
 
-console.log("process.env" +  process.env);
-
-
 var envConfig;
 // require could error out if
 // the file don't exist so lets try this statement

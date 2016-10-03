@@ -15,7 +15,5 @@ logger.log('listening on http://localhost:' + config.port);
 
 console.log("process.env.NODE_ENV" + process.env.NODE_ENV);
 
-console.log("process.env" + process.env);
-
 
 
