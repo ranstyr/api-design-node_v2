@@ -13,3 +13,9 @@ app.listen(config.port);
 logger.log('listening on http://localhost:' + config.port);
 
 
+logger.log("process.env.NODE_ENV" + process.env.NODE_ENV);
+
+logger.log("process.env" + process.env);
+
+
+
